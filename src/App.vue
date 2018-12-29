@@ -1,14 +1,22 @@
  <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-    <h2>hello</h2>
+    <header></header>
+    <div class="tab">
+      I am tab!
+    </div>
+    <div class="content">
+      I am content!
+    </div>
   </div>
 </template>
 
 <script>
+import header from ',/components/header/header.vue';
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    header
+  }
 }
 </script>
 
