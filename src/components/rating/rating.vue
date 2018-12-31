@@ -1,7 +1,7 @@
 <template>
-  <div class="header">
-    I am header!
-  </div>
+    <div>
+      I am rating
+    </div>
 </template>
 
 <script>

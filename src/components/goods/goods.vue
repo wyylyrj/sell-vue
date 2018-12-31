@@ -1,6 +1,6 @@
 <template>
-  <div class="header">
-    I am header!
+  <div>
+    I am goods
   </div>
 </template>
 
